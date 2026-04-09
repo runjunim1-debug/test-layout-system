@@ -1,0 +1,67 @@
+{
+  "factory": {
+    "name": "PVD 생산공장",
+    "zones": [
+      {
+        "zone_id": "F1-A",
+        "factory": "F1",
+        "name": "F1 A Zone",
+        "width_m": 48.0,
+        "depth_m": 30.0,
+        "total_area_sqm": 1440.0,
+        "unusable_areas": [
+          {"name": "전기실", "width_m": 6.0, "depth_m": 5.0, "area_sqm": 30.0},
+          {"name": "기둥/통로", "width_m": 0.0, "depth_m": 0.0, "area_sqm": 45.0}
+        ],
+        "aisle_width_m": 2.5,
+        "max_height_m": 8.0,
+        "notes": "주 생산구역, 천장 크레인 2기 운영"
+      },
+      {
+        "zone_id": "F1-B",
+        "factory": "F1",
+        "name": "F1 B Zone",
+        "width_m": 36.0,
+        "depth_m": 28.0,
+        "total_area_sqm": 1008.0,
+        "unusable_areas": [
+          {"name": "창고", "width_m": 8.0, "depth_m": 6.0, "area_sqm": 48.0},
+          {"name": "기둥/통로", "width_m": 0.0, "depth_m": 0.0, "area_sqm": 32.0}
+        ],
+        "aisle_width_m": 2.5,
+        "max_height_m": 7.0,
+        "notes": "보조 생산구역, 중소형 설비 위주"
+      },
+      {
+        "zone_id": "F2",
+        "factory": "F2",
+        "name": "F2 Zone",
+        "width_m": 60.0,
+        "depth_m": 40.0,
+        "total_area_sqm": 2400.0,
+        "unusable_areas": [
+          {"name": "사무실", "width_m": 10.0, "depth_m": 8.0, "area_sqm": 80.0},
+          {"name": "화장실/휴게실", "width_m": 6.0, "depth_m": 5.0, "area_sqm": 30.0},
+          {"name": "기둥/통로", "width_m": 0.0, "depth_m": 0.0, "area_sqm": 90.0}
+        ],
+        "aisle_width_m": 3.0,
+        "max_height_m": 10.0,
+        "notes": "외주 제작 포함 대형 설비 전용, 천장 크레인 3기"
+      },
+      {
+        "zone_id": "OUTSOURCE",
+        "factory": "외주",
+        "name": "외주 제작 공간",
+        "width_m": 50.0,
+        "depth_m": 35.0,
+        "total_area_sqm": 1750.0,
+        "unusable_areas": [
+          {"name": "공용통로", "width_m": 0.0, "depth_m": 0.0, "area_sqm": 100.0}
+        ],
+        "aisle_width_m": 3.0,
+        "max_height_m": 9.0,
+        "notes": "수주 과부하 시 외주 활용"
+      }
+    ]
+  }
+}
